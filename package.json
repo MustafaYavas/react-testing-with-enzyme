@@ -6,6 +6,8 @@
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/user-event": "^13.5.0",
+    "axios": "^1.6.7",
+    "check-prop-types": "^1.1.2",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
     "react-redux": "^9.1.0",
@@ -43,6 +45,7 @@
     "@cfaester/enzyme-adapter-react-18": "^0.7.1",
     "enzyme": "^3.11.0",
     "jest": "^27.5.1",
-    "jest-enzyme": "^7.1.2"
+    "jest-enzyme": "^7.1.2",
+    "moxios": "^0.4.0"
   }
 }
