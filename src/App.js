@@ -19,7 +19,7 @@ function App(props) {
   };
 
   return (
-    <div>
+    <div data-test="app-component">
       <Header />
       <main className="main">
         <Headline header="Posts" desc="Click the button to render posts!" />

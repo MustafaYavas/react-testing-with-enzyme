@@ -1,6 +1,6 @@
 import checkPropTypes from 'check-prop-types';
 import { applyMiddleware, createStore } from 'redux';
-import rootReducer from '../redux/index';
+import RootReducer from '../redux/index';
 import { middlewares } from '../redux/configureStore';
 
 export const findByTestAttr = (component, attr) => {
@@ -22,5 +22,5 @@ export const testStore = (initialState) => {
   const createStoreWithMiddleware = applyMiddleware(...middlewares)(
     createStore
   );
-  return createStoreWithMiddleware(rootReducer, initialState);
+  return createStoreWithMiddleware(RootReducer, initialState);
 };
