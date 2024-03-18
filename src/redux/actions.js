@@ -6,10 +6,9 @@ export const fetchPosts = () => async (dispatch) => {
       'https://jsonplaceholder.typicode.com/posts?_limit=10'
     );
     const result = await response.json();
-
     dispatch({
       type: actionTypes.GET_POSTS,
-      payload: result.data,
+      payload: result,
     });
   } catch (error) {
     console.log(error);

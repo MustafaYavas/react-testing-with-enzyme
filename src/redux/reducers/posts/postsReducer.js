@@ -4,8 +4,7 @@ export const PostsReducer = (state = [], action) => {
   const { type, payload } = action;
 
   if (type === actionTypes.GET_POSTS) {
-    state = payload;
-    return state;
+    return payload;
   } else {
     return state;
   }

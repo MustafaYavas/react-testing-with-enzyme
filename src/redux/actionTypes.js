@@ -1,3 +1,3 @@
 export const actionTypes = {
-  GET_POSTS: 'getPosts',
+  GET_POSTS: 'GET_POSTS',
 };
